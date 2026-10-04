@@ -1,0 +1,5 @@
+RX[1] @ 83220000 ns = 3c
+RX[2] @ 178700000 ns = 2f
+RX[3] @ 274180000 ns = ff
+Final data_out = ff
+FAIL: Expected 2 bytes, received 3
