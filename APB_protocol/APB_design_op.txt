@@ -1,0 +1,35 @@
+run 1000ns
+time =                    0, prst = x, penable = x, psel = x, paddr = xx, pwrite = x,  pwdata = xxxxxxxx, prdata = xxxxxxxx , pslverr = x 
+time =                 5000, prst = 0, penable = x, psel = x, paddr = xx, pwrite = x,  pwdata = xxxxxxxx, prdata = xxxxxxxx , pslverr = x 
+time =                10000, prst = 1, penable = x, psel = 1, paddr = 01, pwrite = 1,  pwdata = 12153524, prdata = xxxxxxxx , pslverr = x 
+time =                30000, prst = 1, penable = 1, psel = 1, paddr = 01, pwrite = 1,  pwdata = 12153524, prdata = xxxxxxxx , pslverr = 0 
+writing data into memory  data_written = 303379748, address_rd = 1
+time =                50000, prst = 1, penable = 0, psel = 1, paddr = 01, pwrite = 0,  pwdata = 12153524, prdata = xxxxxxxx , pslverr = 0 
+time =                70000, prst = 1, penable = 1, psel = 1, paddr = 01, pwrite = 0,  pwdata = 12153524, prdata = 12153524 , pslverr = 0 
+reading data from memory data_rd = 303379748, address_rd = 35
+time =                90000, prst = 1, penable = 0, psel = 1, paddr = 23, pwrite = 1,  pwdata = 8484d609, prdata = 12153524 , pslverr = 0 
+time =               110000, prst = 1, penable = 1, psel = 1, paddr = 23, pwrite = 1,  pwdata = 8484d609, prdata = 12153524 , pslverr = 1 
+writing data into memory  data_written = 2223298057, address_rd = 35
+time =               130000, prst = 1, penable = 0, psel = 1, paddr = 23, pwrite = 0,  pwdata = 8484d609, prdata = 12153524 , pslverr = 1 
+time =               150000, prst = 1, penable = 1, psel = 1, paddr = 23, pwrite = 0,  pwdata = 8484d609, prdata = xxxxxxxx , pslverr = 1 
+reading data from memory data_rd = x, address_rd = 13
+time =               170000, prst = 1, penable = 0, psel = 1, paddr = 0d, pwrite = 1,  pwdata = 06b97b0d, prdata = xxxxxxxx , pslverr = 1 
+time =               190000, prst = 1, penable = 1, psel = 1, paddr = 0d, pwrite = 1,  pwdata = 06b97b0d, prdata = xxxxxxxx , pslverr = 0 
+writing data into memory  data_written = 112818957, address_rd = 13
+time =               210000, prst = 1, penable = 0, psel = 1, paddr = 0d, pwrite = 0,  pwdata = 06b97b0d, prdata = xxxxxxxx , pslverr = 0 
+time =               230000, prst = 1, penable = 1, psel = 1, paddr = 0d, pwrite = 0,  pwdata = 06b97b0d, prdata = 06b97b0d , pslverr = 0 
+reading data from memory data_rd = 112818957, address_rd = 18
+time =               250000, prst = 1, penable = 0, psel = 1, paddr = 12, pwrite = 1,  pwdata = b2c28465, prdata = 06b97b0d , pslverr = 0 
+time =               270000, prst = 1, penable = 1, psel = 1, paddr = 12, pwrite = 1,  pwdata = b2c28465, prdata = 06b97b0d , pslverr = 0 
+writing data into memory  data_written = 2999092325, address_rd = 18
+time =               290000, prst = 1, penable = 0, psel = 1, paddr = 12, pwrite = 0,  pwdata = b2c28465, prdata = 06b97b0d , pslverr = 0 
+time =               310000, prst = 1, penable = 1, psel = 1, paddr = 12, pwrite = 0,  pwdata = b2c28465, prdata = b2c28465 , pslverr = 0 
+reading data from memory data_rd = 2999092325, address_rd = 13
+time =               330000, prst = 1, penable = 0, psel = 1, paddr = 0d, pwrite = 1,  pwdata = 00f3e301, prdata = b2c28465 , pslverr = 0 
+time =               350000, prst = 1, penable = 1, psel = 1, paddr = 0d, pwrite = 1,  pwdata = 00f3e301, prdata = b2c28465 , pslverr = 0 
+writing data into memory  data_written = 15983361, address_rd = 13
+time =               370000, prst = 1, penable = 0, psel = 1, paddr = 0d, pwrite = 0,  pwdata = 00f3e301, prdata = b2c28465 , pslverr = 0 
+time =               390000, prst = 1, penable = 1, psel = 1, paddr = 0d, pwrite = 0,  pwdata = 00f3e301, prdata = 00f3e301 , pslverr = 0 
+reading data from memory data_rd = 15983361, address_rd = 13
+time =               410000, prst = 1, penable = 0, psel = 0, paddr = 0d, pwrite = 0,  pwdata = 00f3e301, prdata = 00f3e301 , pslverr = 0 
+$finish called at time : 490 ns 
