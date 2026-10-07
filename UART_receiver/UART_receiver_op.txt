@@ -1,5 +1,44 @@
+// If only 2 data bytes are sent
+
+Time resolution is 1 ps
+time = 0, rstn = 0,  data_ready = x, serial_in = 1, data_out = xx
+time = 20000, rstn = 0,  data_ready = 0, serial_in = 1, data_out = 00
+time = 400000, rstn = 1,  data_ready = 0, serial_in = 1, data_out = 00
+time = 600000, rstn = 1,  data_ready = 0, serial_in = 0, data_out = 00
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 1410.000 ; gain = 0.000
+run all
+time = 26640000, rstn = 1,  data_ready = 0, serial_in = 1, data_out = 00
+time = 61360000, rstn = 1,  data_ready = 0, serial_in = 0, data_out = 00
+time = 78720000, rstn = 1,  data_ready = 0, serial_in = 1, data_out = 00
+time = 83180000, rstn = 1,  data_ready = 1, serial_in = 1, data_out = 3c
+RX[1] @ 83220000 ns = 3c
+time = 83220000, rstn = 1,  data_ready = 0, serial_in = 1, data_out = 3c
+time = 96080000, rstn = 1,  data_ready = 0, serial_in = 0, data_out = 3c
+time = 104760000, rstn = 1,  data_ready = 0, serial_in = 1, data_out = 3c
+time = 139480000, rstn = 1,  data_ready = 0, serial_in = 0, data_out = 3c
+time = 148160000, rstn = 1,  data_ready = 0, serial_in = 1, data_out = 3c
+time = 156840000, rstn = 1,  data_ready = 0, serial_in = 0, data_out = 3c
+time = 174200000, rstn = 1,  data_ready = 0, serial_in = 1, data_out = 3c
+time = 178660000, rstn = 1,  data_ready = 1, serial_in = 1, data_out = 2f
+RX[2] @ 178700000 ns = 2f
+time = 178700000, rstn = 1,  data_ready = 0, serial_in = 1, data_out = 2f
+Final data_out = 2f
+PASS: Two bytes received succesfully
+$finish called at time : 214120 ns
+
+
+
+
+
+
+// If 3 data bytes are sent
+
 RX[1] @ 83220000 ns = 3c
 RX[2] @ 178700000 ns = 2f
 RX[3] @ 274180000 ns = ff
 Final data_out = ff
 FAIL: Expected 2 bytes, received 3
+
+
+
+
